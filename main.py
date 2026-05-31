@@ -17,7 +17,7 @@ while chosen == False:
     print(f"Você escolheu: {userAttack}! Fez {randomDmg2} de dano!")
     print("\n\n")
     chosen = False
-  elif chosen == 5:
+  elif choice == 5:
     print(f"\nSaindo do programa...")
     break;
   else:
