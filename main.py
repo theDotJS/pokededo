@@ -4,7 +4,7 @@ attacks = ["Thunderbolt", "Flamethrower", "Surging Strikes", "Grassy Glide"]
 
 chosen = False
 while chosen == False:
-  print(f"Choose an attack:\n1- Thunderbolt\n2- Flamethrower\n3- Surging Strikes\n4- Grassy Glide")
+  print(f"Choose an attack:\n1- Thunderbolt\n2- Flamethrower\n3- Surging Strikes\n4- Grassy Glide\n5- Sair")
   choice = input("Esperando input... ")
   if choice in ["1", "2", "3", "4"]:
     attackIndex = int(choice) - 1
@@ -17,6 +17,9 @@ while chosen == False:
     print(f"Você escolheu: {userAttack}! Fez {randomDmg2} de dano!")
     print("\n\n")
     chosen = False
+  elif chosen == 5:
+    print(f"\nSaindo do programa...")
+    break;
   else:
     print("Resposta invalida.")
     
